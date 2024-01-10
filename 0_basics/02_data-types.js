@@ -29,10 +29,10 @@ Premitive data types
 // null => a standalone value too; but it is a representation of empty value
 // undefined => declared variable but not assign any value
 // symbol => means unique values
-
 */
 
-// Object data type - a non-primitive data type that consists of unordered key-value pairs. 
+// Non-premitive data type -- Object, Array, Function
+// Object - a non-primitive data type that consists of unordered key-value pairs. 
 
 // use 'typeof' keyword to check the datatype
 console.log(typeof "devs")
