@@ -34,4 +34,44 @@ const gameName = new String('Deaths Game');
 
 // Try to practice all string methods ...
 
+/*
+let book = "JavaScript";
+// To calculate the length of the string -- .length -- The length property returns the length of a string
+console.log(`Length of the string: ${book.length}`);	// Length of the string: 10
+
+// #### To display a character at any index 
+// 4 methods for extracting string characters: at(position), charAt(position), charCodeAt(position), Using property access [] like in arrays
+console.log(book.charAt(0));	// J
+console.log(book.at(3)); 	// a
+let index = 4;
+console.log(`Character at index ${index}: ${book.charAt(index)}`);	// S
+
+*/
+/*
+
+// ##### Counting words -- 
+// Split and count words in a sentence -- using split() method, length property
+// A string can be converted to an array with the split() method. -- text.split(",")    // Split on commas
+
+let loremIpsum = 'There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain';
+let words = loremIpsum.split(" ");	// Split on spaces
+
+console.log(words);		// ['There', 'is', 'no', 'one', 'who', 'loves', 'pain', 'itself,', 'who', 'seeks', 'after', 'it', 'and', 'wants', 'to', 'have', 'it,', 'simply', 'because', 'it', 'is', 'pain']
+console.log(`Number of words: ${words.length}`);	// Number of words: 22
+
+*/
+
+/*
+
+// ##### To reverse a string
+// Need 3 methods -- String.prototype.split() method, the Array.prototype.reverse() method and the Array.prototype.join() method.
+// The split() method splits a String object into an array of string by separating the string into sub strings.
+// The reverse() method reverses an array in place. The first array element becomes the last and the last becomes the first.
+// The join() method joins all elements of an array into a string.
+
+let movie = "Deaths Game";
+console.log(movie.split("").reverse().join(""));	// emaG shtaeD
+
+*/
+
 
